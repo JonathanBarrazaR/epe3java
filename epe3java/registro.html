@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylo.css">
+    <title>Registro de Usuario</title>
+</head>
+<body>
+    <form action="registro.php" method="POST">
+        <label for="nombre_completo">Nombre Completo:</label>
+        <input type="text" id="nombre_completo" name="nombre_completo" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telefono">N° de Teléfono:</label>
+        <input type="text" id="telefono" name="telefono">
+
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" required>
+
+        <label for="confirmacion_contrasena">Confirmación Contraseña:</label>
+        <input type="password" id="confirmacion_contrasena" name="confirmacion_contrasena" required>
+
+        <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+
+        <button type="submit">Registrar</button>
+    </form>
+</body>
+</html>
